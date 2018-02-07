@@ -1,0 +1,22 @@
+
+div.container
+{
+
+    margin-right: auto; 
+    margin-left: auto;
+    background-color:rgba(202, 191, 164, 0.801);
+    width: 70%;
+    text-align: center;
+    padding: 5%;
+    font-style: oblique;
+    font-size: xx-large;
+    border-radius: 15px;
+    padding: 0.5%;
+    color:black;
+}
+body
+{
+    background-color:rgb(102, 255, 0);
+    background-image: url("t.png");
+
+};
