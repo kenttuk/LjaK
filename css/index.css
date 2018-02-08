@@ -17,6 +17,7 @@ div.container
 body
 {
     background-color:rgb(102, 255, 0);
-    background-image: url("t.png");
+    background-image: url("dekoreeraus.svg");
+    background-size: 100% auto;	
 
 };
