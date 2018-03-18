@@ -1,0 +1,170 @@
+@media all and (max-width: 750px) {
+div.container
+{
+
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: 3%;
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+ /*   font-style: oblique;*/
+font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xx-large;
+    padding: 0.5%;
+    color:black;
+}
+
+body
+{
+    background-color:rgb(102, 255, 0);
+    background-image: url("dekoreeraus.svg");
+    background-size: 100% auto;	
+
+
+}
+div.row1
+{
+    width:90%;
+    padding: 3%;
+  /*  background-color:rgb(167, 194, 150);*/
+     background-color:rgba(202, 191, 164, 0.96);
+     font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xx-large;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    color: rgb(80, 38, 38);
+
+}
+div.row2
+{
+    width:90%;
+    padding: 3%;
+    background-color:rgba(202, 191, 164, 0.96);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xx-large;
+    border-radius: 15px;
+    color: rgb(80, 38, 38);
+
+}
+div.hdr
+{
+    padding: 3%;
+    background-color:rgba(202, 191, 164, 0.96);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 70px;
+    border-radius: 15px;  
+    margin-bottom: 5%;
+    color: rgb(80, 38, 38);
+}
+table
+{
+    padding: 3%;
+    font-size: xx-large;
+    border-radius: 15px; 
+    width: 95%;
+}
+td
+{
+    border-top: 1px solid rgba(172, 162, 139, 0.96);
+    padding: 15px;
+
+}
+
+th
+{
+    background-color:rgb(179, 170, 147);
+    font-weight: bolder;
+}
+td.last_tr
+{
+    border-bottom: 1px solid rgba(172, 162, 139, 0.96);
+}
+}
+@media all and (min-width: 750px) {
+    div.container
+    {
+    
+        margin-right: auto; 
+        margin-left: auto;
+        margin-top: 3%;
+        width: 90%;
+        text-align: center;
+        padding: 5%;
+     /*   font-style: oblique;*/
+    font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: xx-large;
+        padding: 0.5%;
+        color:black;
+    }
+    
+    body
+    {
+        background-color:rgb(102, 255, 0);
+        background-image: url("dekoreeraus.svg");
+        background-size: 100% auto;	
+    
+    
+    }
+    div.row1
+    {
+        float:left; 
+        width:43%;
+        padding: 3%;
+      /*  background-color:rgb(167, 194, 150);*/
+         background-color:rgba(202, 191, 164, 0.96);
+         font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: xx-large;
+        border-radius: 15px;
+        color: rgb(80, 38, 38);
+    
+    }
+    div.row2
+    {
+        float: right;
+        width:43%;
+        padding: 3%;
+        background-color:rgba(202, 191, 164, 0.96);
+        font-size: xx-large;
+        border-radius: 15px;
+        color: rgb(80, 38, 38);
+		font-family: Brush Script MT, Brush Script Std, cursive;
+    
+    }
+    div.hdr
+    {
+        padding: 3%;
+        background-color:rgba(202, 191, 164, 0.96);
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 70px;
+        border-radius: 15px;  
+        margin-bottom: 2%;
+        color: rgb(80, 38, 38);
+    }
+    table
+    {
+        padding: 3%;
+        font-size: xx-large;
+        border-radius: 15px; 
+        width: 95%;
+    }
+    td
+    {
+        border-top: 1px solid rgba(172, 162, 139, 0.96);
+        padding: 15px;
+    
+    }
+    
+    th
+    {
+        background-color:rgb(179, 170, 147);
+        font-weight: bolder;
+        border: 0;
+    
+    }
+    td.last_tr
+    {
+        border-bottom: 1px solid rgba(172, 162, 139, 0.96);
+    }
+
+}
